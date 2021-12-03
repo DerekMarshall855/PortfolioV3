@@ -12,7 +12,7 @@ const Hero = () => (
         Welcome to my Portfolio!
       </SectionTitle>
       <SectionText>
-        I am a detail-oriented and self-motivated Computer Science and Psychology graduate with experience in
+        My name is Derek Marshall, I am a detail-oriented and self-motivated Computer Science and Psychology graduate with experience in
         software development. I primarily focus on backend web development but have gained experience in frontend development, 
         game development, and graphics programming in my personal time. My strongest languages are JavaScript, Go, Python, and C++.
       </SectionText>
