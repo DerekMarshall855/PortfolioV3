@@ -90,5 +90,5 @@ export const TimeLineData = [
   { year: 2018, text: 'Began learning data structures and C programming', },
   { year: 2019, text: 'Entered my first hackathon pursuing a backend api project, began learning databases and python flask', },
   { year: 2020, text: 'Started learning R programming for data science, WebGL for graphics, React and NodeJS for full stack development', },
-  { year: 2021, text: 'Pursued many solo projects, began my first internship and a full stack web developer, became certified in Unreal, Unity, and SocketIO', },
+  { year: 2021, text: 'Pursued many solo projects, began my first internship as a full stack web developer, became certified in Unreal, Unity, and SocketIO', },
 ];
