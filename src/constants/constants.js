@@ -18,7 +18,7 @@ export const projects = [
   },
   {
     title: 'Go Ecommerce API',
-    description: 'A REST API built with Go and the Gin framework. Has everything needed to create an ecommerce frontend, from user auth and jwt tokens, to carts and checkout logic. Uses MongoDB encoded with bson to be understood by go.'\
+    description: 'A REST API built with Go and the Gin framework. Has everything needed to create an ecommerce frontend, from user auth and jwt tokens, to carts and checkout logic. Uses MongoDB encoded with bson to be understood by go.',
     image: '/images/GoEcommerce.png',
     tags: ['Go', 'Golang', 'Ecommerce', 'REST', 'Backend'],
     source: 'https://github.com/DerekMarshall855/GoEcommerce',
