@@ -1,12 +1,37 @@
 export const projects = [
   {
+    title: 'Path Finding Visualized',
+    description: "A classic resume project, visualized path finding algorithms on the web. I had already learned these algorithms from school, but it was a nice refresher. The main thing I learned here was animations with css.",
+    image: '/images/PathFindingVisualized.png',
+    tags: ['TypeScript', 'React', 'Frontend', 'Algorithms', 'Data Structures', 'Frontend'],
+    visit: 'https://derekmarshall855.github.io/path-finding-visualized/',
+    source: 'https://github.com/DerekMarshall855/path-finding-visualized',
+    id: 0
+  },
+  {
+    title: 'Basic Ray Tracing with C++',
+    description: 'A from scratch ray tracer I built using scratchpixel.com as my main resource for information. Super simple, does all of the math and exports the final image to a ppm file to be opened with Gimp or Photoshop.',
+    image: '/images/C++Render.png',
+    tags: ['C++', 'Graphics'],
+    source: 'https://github.com/DerekMarshall855/basic-rendering',
+    id: 1
+  },
+  {
+    title: 'Go Ecommerce API',
+    description: 'A REST API built with Go and the Gin framework. Has everything needed to create an ecommerce frontend, from user auth and jwt tokens, to carts and checkout logic. Uses MongoDB encoded with bson to be understood by go.'\
+    image: '/images/GoEcommerce.png',
+    tags: ['Go', 'Golang', 'Ecommerce', 'REST', 'Backend'],
+    source: 'https://github.com/DerekMarshall855/GoEcommerce',
+    id: 2,
+  },
+  {
     title: 'Amazon Webstore Clone',
     description: "This app was my attempt at creating a responsive e-commerce website from scratch. It contains a backend with product data, a paypal api to allow users to 'purchase' items (sandbox). It also uses secure JWT tokens, password hashing and salting, and redux statefulness for a secure experience.",
     image: '/images/amazon_clone.png',
-    tags: ['Mongo', 'Express', 'React', 'Node', 'TypeScript'],
+    tags: ['Mongo', 'Express', 'React', 'Node', 'TypeScript', 'Full Stack'],
     visit: 'https://webstore-clone.netlify.app/',
     source: 'https://github.com/DerekMarshall855/AmazonClone',
-    id: 0,
+    id: 3,
   },
   {
     title: 'Original Portfolio',
@@ -15,7 +40,7 @@ export const projects = [
     tags: ['Golang', 'Hugo', 'TailwindCSS'],
     visit: 'https://main.d1v8afas2pxr23.amplifyapp.com/',
     source: 'https://github.com/DerekMarshall855/portfolioV2',
-    id: 1,
+    id: 4,
   },
   {
     title: 'My First Blog',
@@ -23,7 +48,7 @@ export const projects = [
     image: '/images/media_clone.png',
     tags: ['Mongo', 'Express', 'React', 'Node', 'TypeScript'],
     source: 'https://github.com/DerekMarshall855/social-media-clone',
-    id: 2,
+    id: 5,
   },
   {
     title: 'My Dynamic Scheduler',
@@ -31,7 +56,7 @@ export const projects = [
     image: '/images/calendar.png',
     tags: ['Mongo', 'Express', 'Asperite'],
     source: 'https://github.com/DerekMarshall855/MyDynamicScheduler',
-    id: 3,
+    id: 6,
   },
   {
     title: 'Robot Slime Fun Time',
@@ -40,7 +65,7 @@ export const projects = [
     tags: ['Godot', 'GDScript', 'React', 'Node'],
     visit: 'https://sirsalisburysteak.itch.io/robot-slime-fun-time',
     source: 'https://github.com/DerekMarshall855/GDU-Jam-5',
-    id: 4,
+    id: 7,
   },
   {
     title: 'Captain Code',
@@ -48,7 +73,7 @@ export const projects = [
     image: '/images/CC_Game.png',
     tags: ['Android Studio', 'Java'],
     source: 'https://github.com/DerekMarshall855/CP470_Final_Project',
-    id: 5,
+    id: 8,
   },
   {
     title: 'Computer Graphics Showroom',
@@ -56,7 +81,7 @@ export const projects = [
     image: '/images/live_showroom.png',
     tags: ['JavaScript', 'ThreeJS', 'WebGL'],
     source: 'https://github.com/DerekMarshall855/Computer-Graphics-Showroom',
-    id: 6,
+    id: 9,
   },
   {
     title: 'Keyboard and Mouse Practice (KAMP)',
@@ -64,7 +89,7 @@ export const projects = [
     image: '/images/KAMP.png',
     tags: ['Java'],
     source: 'https://github.com/DerekMarshall855/KAMP',
-    id: 7,
+    id: 10,
   },
   {
     title: 'N-Puzzle Solver',
@@ -72,7 +97,7 @@ export const projects = [
     image: '/images/python_puzzle.png',
     tags: ['Python'],
     source: 'https://github.com/DerekMarshall855/Assignment-1',
-    id: 8,
+    id: 11,
   },
   {
     title: 'Sudoku Puzzle Solver',
@@ -80,7 +105,7 @@ export const projects = [
     image: '/images/sudoku.png',
     tags: ['Python'],
     source: 'https://github.com/DerekMarshall855/CP468-Assignment-2',
-    id: 9,
+    id: 12,
   },
 ];
 
@@ -90,5 +115,6 @@ export const TimeLineData = [
   { year: 2018, text: 'Began learning data structures and C programming', },
   { year: 2019, text: 'Entered my first hackathon pursuing a backend api project, began learning databases and python flask', },
   { year: 2020, text: 'Started learning R programming for data science, WebGL for graphics, React and NodeJS for full stack development', },
-  { year: 2021, text: 'Pursued many solo projects, began my first internship as a full stack web developer, became certified in Unreal, Unity, and SocketIO', },
+  { year: 2021, text: 'Pursued many solo projects, began my first internship as a full stack web developer, became certified in Unreal, Unity, and SocketIO. Promoted to backend lead at current position.', },
+  { year: 2022, text: 'Started a new position as a full stack developer at the Government of Canada IRCC. learned more NestJS, Angular, and AWS development at work, began learning more Go and C++ on my own time.' }
 ];
