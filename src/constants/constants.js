@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Basic Ray Tracing with C++',
     description: 'A from scratch ray tracer I built using scratchpixel.com as my main resource for information. Super simple, does all of the math and exports the final image to a ppm file to be opened with Gimp or Photoshop.',
-    image: '/images/C++Render.png',
+    image: '/images/BallsWoo.png',
     tags: ['C++', 'Graphics'],
     source: 'https://github.com/DerekMarshall855/basic-rendering',
     id: 1
