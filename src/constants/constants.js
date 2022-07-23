@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Path Finding Visualized',
     description: "A classic resume project, visualized path finding algorithms on the web. I had already learned these algorithms from school, but it was a nice refresher. The main thing I learned here was animations with css.",
-    image: '/images/PathFindingVisualized.png',
+    image: './images/PathFindingVisualized.png',
     tags: ['TypeScript', 'React', 'Frontend', 'Algorithms', 'Data Structures', 'Frontend'],
     visit: 'https://derekmarshall855.github.io/path-finding-visualized/',
     source: 'https://github.com/DerekMarshall855/path-finding-visualized',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Basic Ray Tracing with C++',
     description: 'A from scratch ray tracer I built using scratchpixel.com as my main resource for information. Super simple, does all of the math and exports the final image to a ppm file to be opened with Gimp or Photoshop.',
-    image: '/images/BallsWoo.png',
+    image: './images/BallsWoo.png',
     tags: ['C++', 'Graphics'],
     source: 'https://github.com/DerekMarshall855/basic-rendering',
     id: 1
