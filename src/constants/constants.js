@@ -38,7 +38,7 @@ export const projects = [
     description: "This was my original attempt at a portfolio website. It was generated in Hugo and customized by me. I learned a lot about Go and TailwindCSS during this project. This site even used to have a cool url (Now assigned to the current portfolio).",
     image: '/images/OriginalPortfolio.png',
     tags: ['Golang', 'Hugo', 'TailwindCSS'],
-    visit: 'https://main.d1v8afas2pxr23.amplifyapp.com/',
+    visit: 'https://derekmarshall855.github.io/portfolioV2',
     source: 'https://github.com/DerekMarshall855/portfolioV2',
     id: 4,
   },
