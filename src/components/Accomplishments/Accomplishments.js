@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentStyles';
 
 const data = [
-  { number: 500, text: 'Github Commits'},
+  { number: 500, text: 'Github Commits' },
   { number: 25, text: 'Projects', },
   { number: 2, text: 'Years of Experience', },
   { number: 5, text: 'Technology Certifications', }
