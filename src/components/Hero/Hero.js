@@ -12,12 +12,12 @@ const Hero = () => (
         Welcome to my Portfolio!
       </SectionTitle>
       <SectionText>
-        My name is Derek Marshall, I am a detail-oriented and self-motivated developer with experience in
-        software development. I graduated from Wilfrid Laurier Unversity Computer Science and Psychology double degree program in April 2021, with a cumulative GPA of 3.7.
+        My name is Derek Marshall, I am a detail-oriented and self-motivated graduate with experience in
+        software development. I graduated from Wilfrid Laurier University's Computer Science and Psychology double degree program in April 2021, with a cumulative GPA of 3.7.
         I've worked in industry as a full stack developer for over a year, and am currently doing the same at the Government of Canada - IRCC.
-        I primarily focus on cloud and backend web development but have gained experience in frontend development,
-        game development, and graphics programming in my personal time. My strongest languages are TypeScript and Go, but I have experience in many other languages,
-        and find it easy to pickup new languages quickly.
+        Currently my goal is to keep improving in a wide variety of langauges and technologies so I can keep pursuing my passion for code.
+        My best languages right now are Typescript and Go, but I have experience in many others, and learn new ones quickly.
+        I am always open to ideas or offers of employment, and I encourage anyone to reach out to me on linkedin!
       </SectionText>
       <Button onClick={() => window.location = 'https://github.com/derekmarshall855'}>Learn More</Button>
       <SectionDivider />
