@@ -4,12 +4,13 @@ import { SiUnrealengine } from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've working with a range of technologies in web, game, and graphics development.
-      My work lies primarily in full stack web development, but I am most interested in backend and graphics.
+      My work lies primarily in full stack web development. That said, I am interested in all kinds of development,
+      including back end, cloud, graphics, and imbedded systems.
     </SectionText>
     <List>
       <ListItem>
@@ -18,7 +19,8 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React, Styled Components, and Sass
+            React, Angular, CSS, <br />
+            NgRx, Redux, and NextJS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -28,7 +30,9 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node, Go, C++, and Databases
+            AWS, Go, C++, <br />
+            NodeJS, NestJS, ExpressJS <br />
+            MongoDB, Redis, and DynamoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,7 +42,8 @@ const Technologies = () =>  (
           <ListTitle>Game/Graphics</ListTitle>
           <ListParagraph>
             Experience with <br />
-            WebGL, C++, Unreal Engine, and Blender
+            WebGL, C++, Unreal Engine, <br />
+            Godot, Asperite, and Blender
           </ListParagraph>
         </ListContainer>
       </ListItem>
