@@ -32,7 +32,8 @@ const Technologies = () => (
             Experience with <br />
             AWS, Go, C++, <br />
             NodeJS, NestJS, ExpressJS <br />
-            MongoDB, Redis, and DynamoDB
+            Java, Springboot, MongoDB, <br />
+            MySQL, Redis, and DynamoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>

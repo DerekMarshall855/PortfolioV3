@@ -11,7 +11,7 @@ export const projects = [
     title: 'Path Finding Visualized',
     description: "A classic resume project, visualized path finding algorithms on the web. I had already learned these algorithms from school, but it was a nice refresher. The main thing I learned here was animations with css.",
     image: '/images/PathFindingVisualized.png',
-    tags: ['TypeScript', 'React', 'Frontend', 'Algorithms', 'Data Structures', 'Frontend'],
+    tags: ['TypeScript', 'React', 'Algorithms', 'Data Structures'],
     visit: 'https://derekmarshall855.github.io/path-finding-visualized/',
     source: 'https://github.com/DerekMarshall855/path-finding-visualized',
     id: 1
@@ -36,7 +36,7 @@ export const projects = [
     title: 'Amazon Webstore Clone',
     description: "This app was my attempt at creating a responsive e-commerce website from scratch. It contains a backend with product data, a paypal api to allow users to 'purchase' items (sandbox). It also uses secure JWT tokens, password hashing and salting, and redux statefulness for a secure experience.",
     image: '/images/amazon_clone.png',
-    tags: ['Mongo', 'Express', 'React', 'Node', 'TypeScript', 'Full Stack'],
+    tags: ['Mongo', 'Express', 'React', 'Node', 'TypeScript'],
     visit: 'https://webstore-clone.netlify.app/',
     source: 'https://github.com/DerekMarshall855/AmazonClone',
     id: 4
@@ -125,5 +125,5 @@ export const TimeLineData = [
   { year: 2020, text: 'Started learning R programming for data science, WebGL for graphics, React and NodeJS for full stack development', },
   { year: 2021, text: 'Pursued many solo projects, began my first internship as a full stack web developer, became certified in Unreal, Unity, and SocketIO. Promoted to backend lead at current position.', },
   { year: 2022, text: 'Started a new position as a full stack developer at the Government of Canada IRCC. Learned Go and C++ on my own time. Focused on Angular, NestJS, and AWS Cloud at work.' },
-  { year: 2023, text: 'Continued work at IRCC, leaning heavily into cloud and data development. Vastly improved at AWS-CDK, architecture, and data manipulation. Created my first mid-sized C++ project with Vulkan.' }
+  { year: 2023, text: 'Continued work at IRCC, leaning heavily into cloud and data development, some backend with Java Springboot and MySQL. Vastly improved at AWS-CDK, architecture, and data manipulation. Created my first mid-sized C++ project with Vulkan.' }
 ];
